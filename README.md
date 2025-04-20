@@ -63,11 +63,6 @@ This app can be used for:
 ![image](https://github.com/user-attachments/assets/6c3dfb88-df6e-4866-9a29-52f77a7e3111)
 ![image](https://github.com/user-attachments/assets/b0b86f69-04e2-428e-8989-7cdd4e67ef96)
 
-> **Findings:** Lesion spotted in left lower lung lobe, possibly indicating pneumonia.  
-> **Recommendations:** Recommend chest CT and bloodwork for confirmation.  
-> **Treatment:** Prescribe antibiotics pending further confirmation.  
-> **Disclaimer:** _Consult with a Doctor before making any medical decisions._
-
 ---
 
 ## 📦 Installation
