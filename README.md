@@ -1,56 +1,114 @@
-# 🧠 Jeeva Vital Image Analytics
 
+# 🧬 Jeeva AI – Your AI Medical Assistant for Doctors & Patients  
+_A Gemini-Powered End-to-End LLM Project for Medical Image Analysis_  
+[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-orange)](https://streamlit.io/) [![Gemini AI](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?logo=google)](https://deepmind.google/discover/blog/gemini-pro/)  
 ![image](https://github.com/user-attachments/assets/bc1c2faf-6711-4ca8-bca1-b91feca33113)
 
-
-**Jeeva Vital Image Analytics** is a web-based application designed to assist healthcare professionals and medical practitioners in the identification and interpretation of anomalies in medical images. By leveraging AI and medical imaging technologies, the tool supports preliminary analysis and generates structured clinical reports based on uploaded images.
-
-🔗 **Live Application**: [jeeva-ai.streamlit.app](https://jeeva-ai.streamlit.app/)
+🔗 **Live Demo**: [jeeva-ai.streamlit.app](https://jeeva-ai.streamlit.app/)  
+🎥 **Tags**: `#GoogleGemini` `#MedicalAI` `#Streamlit`
 
 ---
 
-## 🏥 Medical Image Analysis Task
+## 🧠 Overview
 
-As a highly skilled medical practitioner specializing in image analysis, you are tasked with examining medical images for a renowned hospital. Your expertise is crucial in identifying diseases or health conditions that may be present in the images.
+**Jeeva AI** is an AI-powered medical assistant designed to support **doctors**, **radiologists**, and **patients** in analyzing medical images using **Google's Gemini Pro** model. This project showcases how cutting-edge multimodal LLMs like **Gemini** can interpret X-rays, MRIs, CT scans, and more — with structured diagnostic support.
 
----
-## 🧪 Features
-
-- Upload support for medical images (X-ray, CT, MRI, etc.)
-- AI-powered image anomaly detection
-- Automatic structured findings and report generation
-- Basic treatment suggestions (if applicable)
-- Built-in clarity checks and response boundaries
+Whether you're building a healthcare tool, experimenting with Gemini APIs, or exploring medical image processing, Jeeva AI is the perfect project to get started with.
 
 ---
-##Example
+
+## 🚀 Features
+
+- 🧠 **Gemini Pro Integration**: Leverages Google's latest LLM to interpret medical images with exceptional accuracy.
+- 🖼️ **Medical Image Recognition**: Upload X-rays, CT scans, MRIs, etc., and receive a detailed diagnostic analysis.
+- 📝 **Automated Findings Report**: Clear, structured summary of anomalies or signs of disease.
+- 🔄 **Treatment Suggestions**: Recommends follow-up tests or treatments (when applicable).
+- 💬 **Natural Language Q&A**: Ask the assistant for explanations, clarifications, or condition-related info.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Google Gemini Pro API** – Image & text analysis
+- **Streamlit** – Frontend UI for quick interaction
+- **Python** – Backend logic and API handling
+- **OpenAI-style Prompting** – For structured diagnosis and treatment generation
+
+---
+
+## 🧪 Use Case
+
+This app can be used for:
+
+- 🩺 **Clinical Assistance**: Doctors seeking AI-backed second opinions  
+- 👨‍⚕️ **Patient Education**: Simplified explanations of image findings  
+- 🧑‍💻 **Developer Inspiration**: LLM-based healthcare projects using Gemini
+
+---
+
+## 🩻 How It Works
+
+1. **Upload Medical Image** (X-ray, MRI, etc.)
+2. The app sends the image to **Gemini Pro** via its API
+3. Gemini analyzes and returns:
+   - Anomalies or disease signs
+   - Next step recommendations
+   - Treatment suggestions (if relevant)
+4. The system displays a structured report + disclaimer
+
+---
+
+## 📋 Example Output
+
 ![image](https://github.com/user-attachments/assets/6c3dfb88-df6e-4866-9a29-52f77a7e3111)
 ![image](https://github.com/user-attachments/assets/b0b86f69-04e2-428e-8989-7cdd4e67ef96)
 
-
-
-## 💻 Tech Stack
-
-- **Frontend/UI**: Streamlit
-- **Backend**: Python
-- **Image Analysis**: Deep Learning with pre-trained medical models
-- **Hosting**: Streamlit Cloud
+> **Findings:** Lesion spotted in left lower lung lobe, possibly indicating pneumonia.  
+> **Recommendations:** Recommend chest CT and bloodwork for confirmation.  
+> **Treatment:** Prescribe antibiotics pending further confirmation.  
+> **Disclaimer:** _Consult with a Doctor before making any medical decisions._
 
 ---
 
-## 🚀 Run Locally
-
-Clone the repository and run:
+## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/jeeva-vital-image-analytics.git
-cd jeeva-vital-image-analytics
+git clone https://github.com/your-username/jeeva-ai.git
+cd jeeva-ai
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 ---
 
-## 📄 License
+## 🔐 API Key Setup
 
-This project is open-source and licensed under the [MIT License](LICENSE).
+Make sure to add your **Google Gemini API Key** in a `.env` file or directly in the app where specified:
+
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## ⚠️ Disclaimers
+
+- This tool is **not a substitute for professional medical advice**.
+- Always consult with a licensed healthcare provider for diagnosis and treatment.
+- The app's responses are generated by AI and should be used **for guidance only**.
+
+---
+
+## 🙌 Acknowledgements
+
+- [Google DeepMind – Gemini](https://deepmind.google/technologies/gemini/)
+- [Streamlit](https://streamlit.io/)
+- Medical imaging sample datasets (for demo purposes)
+
+---
+
+## 💡 Future Enhancements
+
+- Integration with **EHR systems**
+- Support for **real-time chat with Gemini**
+- Fine-tuned medical prompts based on specialty (e.g., cardiology, orthopedics)
